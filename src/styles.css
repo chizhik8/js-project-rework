@@ -1,20 +1,34 @@
+@import './fonts/fonts.css';
+
 html {
   box-sizing: border-box;
+  --main-accent-color: #ff6b08;
+  --main-base-color: #112437;
+  --modal-bg-color: #031c33;
+  font-family: 'MontserratRegular';
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }
